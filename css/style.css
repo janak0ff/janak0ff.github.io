@@ -13,74 +13,182 @@ iframe {
 }
 
 @media screen and (max-width: 2118px) {
-  iframe {
+  iframe.iframeg {
     width: 2000px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 1900px) {
-  iframe {
+  iframe.iframeg {
     width: 1880px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 1686px) {
-  iframe {
+  iframe.iframeg {
     width: 1666px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 1478px) {
-  iframe {
+  iframe.iframeg {
     width: 1458px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 1266px) {
-  iframe {
+  iframe.iframeg {
     width: 1244px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 1066px) {
-  iframe {
+  iframe.iframeg {
     width: 1044px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 844px) {
-  iframe {
+  iframe.iframeg {
     width: 824px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 634px) {
-  iframe {
+  iframe.iframeg {
     width: 454px;
     height: 100vh;
   }
 }
-/* 
-@media screen and (max-width: 436px) {
-  iframe {
-    width: 400px;
+
+/* ----------media queries for google map iframe having class map--------------- */
+
+
+@media screen and (max-width: 1900px) {
+  iframe.map {
+    width: 1700px;
     height: 100vh;
   }
 }
 
-@media screen and (max-width: 375px) {
-  iframe {
+@media screen and (max-width: 1700px) {
+  iframe.map {
+    width: 1500px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  iframe.map {
+    width: 1300px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  iframe.map {
+    width: 1100px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  iframe.map {
+    width: 900px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  iframe.map {
+    width: 800px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  iframe.map {
+    width: 600px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe.map {
+    width: 500px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  iframe.map {
+    width: 450px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  iframe.map {
     width: 350px;
     height: 100vh;
   }
-} */
+}
+@media screen and (max-width: 350px) {
+  iframe.map {
+    width: 320px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  iframe.map {
+    width: 310px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  iframe.map {
+    width: 295px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  iframe.map {
+    width: 275px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  iframe.map {
+    width: 250px;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 260px) {
+  iframe.map {
+    width: 235px;
+    height: 100vh;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 #g-drive {
@@ -550,7 +658,7 @@ html {
 
 /* all similar content styling codes */
 section {
-  padding: 10px 0;
+  padding: 100px 0;
 }
 
 .max-width {
