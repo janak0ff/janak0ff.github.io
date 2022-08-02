@@ -673,21 +673,10 @@ h1 div.fg {
 
 @media screen and (max-width: 549px) {
   h1 div.fg {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
-@media screen and (max-width: 450px) {
-  h1 div.fg {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  h1 div.fg {
-    font-size: 15px;
-  }
-}
 
 /* 
 6
