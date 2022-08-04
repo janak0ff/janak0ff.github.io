@@ -171,7 +171,7 @@
 }
 @media screen and (max-width: 1366px) {
   iframe.map {
-    width: 1358px;
+    width: 1355px;
     height: 100vh;
   }
 }
@@ -1065,11 +1065,14 @@ section .title::after {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
+  position: relative;
 }
 
 .home .max-width {
   width: 100%;
   display: flex;
+  position: absolute;
+  top: 145px;
 }
 
 .home .max-width .row {
@@ -1095,7 +1098,7 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-  color: rgb(41, 77, 196);
+  color:  rgb(141, 165, 245);
   font-weight: 500;
 }
 
@@ -1620,7 +1623,7 @@ footer span a:hover {
 
 @media (max-width: 991px) {
   .max-width {
-    padding: 0 50px;
+    padding: 0 30px;
   }
 }
 
@@ -1662,6 +1665,7 @@ footer span a:hover {
 
   .home .home-content .text-2 {
     font-size: 70px;
+  
   }
 
   .home .home-content .text-3 {
@@ -1706,12 +1710,15 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+
+
   .max-width {
-    padding: 0 23px;
+    padding-left: 29px;
+  
   }
 
   .home .home-content .text-2 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .home .home-content .text-3 {
@@ -1727,13 +1734,23 @@ footer span a:hover {
   }
 }
 
-@media (max-width: 500px) {
+
+
+@media (max-width: 515px) {
+  /* .max-width {
+    padding-left: 20px;
+  } */
+  .home .home-content .text-1 {
+    font-size: 20px;
+  }
+
+
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .home .home-content .text-3 {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .about .about-content .right .text,
@@ -1761,5 +1778,31 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+}
+
+@media (max-width: 350px) {
+
+/* 
+  .max-width {
+    padding-left: 10px;
+  } */
+  .home .home-content .text- {
+    font-size: 20px;
+  }
+  .home .home-content .text-2 {
+    font-size: 28px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 15px;
+  }
+
+  .home .home-content a {
+    font-size: 20px;
+  }
+
+  .services .serv-content .card {
+    width: 100%;
   }
 }
