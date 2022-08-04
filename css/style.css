@@ -731,6 +731,14 @@ h1 {
   transition: 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 990px) {
+  #lightgallery a  {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+  
+}
+
 #lightgallery a:hover {
   -webkit-filter: blur(0);
   filter: blur(0);
