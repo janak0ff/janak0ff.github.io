@@ -146,6 +146,62 @@
   background: #dd4b39;
 } */
 
+
+
+.images{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+
+.images img{
+    height: 80%;
+    position: absolute;
+    left: 60%;
+    bottom: 5px;
+    top: 5px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    z-index: 1;
+}
+
+.images:hover .shape{
+    bottom: 45px;
+    
+}
+
+.images:hover .me{
+    left: 40%;
+}
+
+.images:hover .shape{
+    left: 50%;
+}
+
+@media (max-width: 800px){
+    .images{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+   top: 50%;
+    left: 15%;
+
+    right: 1%;
+}
+
+.images img{
+    height: 50%;
+    position: absolute;
+    left: 60%;
+    bottom: 0px;
+    /* top: px; */
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    z-index: 1;
+}
+}
 </style>
 </head>
 
@@ -226,6 +282,11 @@
             </div>
         </div>
     </section>
+    <div class="images">
+        <img src="./img/shape.png" class="shape">
+        <img src="./img/r.png" class="me">
+    </div>
+
 
     <!-- about section start -->
     <section class="about" id="about">

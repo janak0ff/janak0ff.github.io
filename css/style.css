@@ -1073,6 +1073,7 @@ section .title::after {
   display: flex;
   position: absolute;
   top: 145px;
+  z-index: 5;
 }
 
 .home .max-width .row {
@@ -1098,7 +1099,7 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-  color:  rgb(141, 165, 245);
+  color:  greenyellow;
   font-weight: 500;
 }
 
