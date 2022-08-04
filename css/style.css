@@ -6,100 +6,107 @@
   padding: 0px;
 }
 
-iframe {
+/* iframe {
   width: 2150px;
   height: 100vh;
   padding-top: 30px;
 }
 
 @media screen and (max-width: 2118px) {
-  iframe.iframeg {
+  iframe.map {
     width: 2000px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1920px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1918px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1900px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1880px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 1686px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1666px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1600px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1595px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1536px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1535px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1440px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1435px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1478px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1458px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1366px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1364px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1280px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1275px;
     height: 100vh;
   }
 }
 @media screen and (max-width: 1266px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1244px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 1066px) {
-  iframe.iframeg {
+  iframe.map {
     width: 1044px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 844px) {
-  iframe.iframeg {
+  iframe.map {
     width: 824px;
     height: 100vh;
   }
 }
 
 @media screen and (max-width: 634px) {
-  iframe.iframeg {
+  iframe.map {
     width: 454px;
     height: 100vh;
   }
 }
+
+@media screen and (max-width: 634px) {
+  iframe.map {
+    width: 454px;
+    height: 100vh;
+  }
+} */
 
 /* ----------media queries for google map iframe having class map--------------- */
 @media screen and (max-width: 1920px) {
