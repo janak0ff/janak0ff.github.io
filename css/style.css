@@ -8,7 +8,7 @@
 /* ===================== janak profile ========================== */
 .profilejanak{
   height: 400px;
-  width: 400px;
+  width: 390px;
   position: relative;
   transform-style: preserve-3d;
 	perspective: 1000px;
@@ -80,6 +80,7 @@
   border-color: #1cc7d0;
   background: linear-gradient(375deg, transparent, transparent);
 }
+
 
 
 /* -------------------------- */
