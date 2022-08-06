@@ -999,7 +999,7 @@ section .title::after {
   font-size: 20px;
   color: rgb(242, 243, 247);
   padding: 0 5px;
-  
+  background: rgba(51, 44, 44, 0.582);
   transform: translateX(-50%);
 }
 
