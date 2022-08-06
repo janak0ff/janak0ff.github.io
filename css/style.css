@@ -994,7 +994,7 @@ section .title {
 
 section .title::after {
   position: absolute;
-  bottom: -8px;
+  bottom: 1px;
   left: 50%;
   font-size: 20px;
   color: rgb(39, 43, 61);
