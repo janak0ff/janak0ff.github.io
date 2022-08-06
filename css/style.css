@@ -12,6 +12,7 @@
   position: relative;
   transform-style: preserve-3d;
 	perspective: 1000px;
+  margin-top: 10px;
 }
 .profilejanak .card{
   position: absolute;
@@ -994,7 +995,7 @@ section .title {
 
 section .title::after {
   position: absolute;
-  bottom: 1px;
+  bottom: -5px;
   left: 50%;
   font-size: 20px;
   color: rgb(39, 43, 61);
