@@ -1625,6 +1625,7 @@ section .title::after {
 
 .contact .right form .button-area {
   display: flex;
+  margin-top: 70px;
   align-items: center;
 }
 
