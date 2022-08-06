@@ -1317,7 +1317,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: rgb(145, 199, 235);
-  content: "what i learning";
+  content: "what i'm learning";
 }
 
 /* .services .serv-content .card {
