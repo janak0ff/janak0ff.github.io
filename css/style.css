@@ -997,9 +997,10 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: rgb(242, 243, 247);
+  color: rgb(39, 43, 61);
   padding: 0 5px;
-  background: rgba(51, 44, 44, 0.582);
+
+  /* background: rgba(51, 44, 44, 0.582); */
   transform: translateX(-50%);
 }
 
@@ -1271,7 +1272,7 @@ section .title::after {
 .about .about-content .right .text {
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin: 10px 0px;
 }
 
 .about .about-content .right .text span {
