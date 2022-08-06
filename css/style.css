@@ -906,7 +906,7 @@ html {
 
 /* all similar content styling codes */
 section {
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 .max-width {
@@ -962,7 +962,7 @@ footer {
 
 
 .about .about-content,
-.services .serv-content,
+ .serv-content,
 .skills .skills-content,
 .contact .contact-content {
   display: flex;
@@ -976,12 +976,12 @@ section .title {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
   font-family: "Ubuntu", sans-serif;
 }
 
-section .title::before {
+/* section .title::before {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -990,16 +990,16 @@ section .title::before {
   height: 3px;
   background: #111;
   transform: translateX(-50%);
-}
+} */
 
 section .title::after {
   position: absolute;
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: rgb(41, 77, 196);
+  color: rgb(242, 243, 247);
   padding: 0 5px;
-  background: #fff;
+  
   transform: translateX(-50%);
 }
 
@@ -1304,7 +1304,7 @@ section .title::after {
 .services,
 .teams {
   color: #fff;
-  background: #111;
+  background: rgb(145, 199, 235);
 }
 
 .services .title::before,
@@ -1314,11 +1314,11 @@ section .title::after {
 
 .services .title::after,
 .teams .title::after {
-  background: #111;
-  content: "what i provide";
+  background: rgb(145, 199, 235);
+  content: "what i learning";
 }
 
-.services .serv-content .card {
+/* .services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -1326,7 +1326,7 @@ section .title::after {
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
-}
+} */
 
 .services .serv-content .card:hover {
   background: rgb(41, 77, 196);
@@ -1340,11 +1340,11 @@ section .title::after {
   transform: scale(1.05);
 }
 
-.services .serv-content .card i {
+/* .services .serv-content .card i {
   font-size: 50px;
   color: rgb(41, 77, 196);
   transition: color 0.3s ease;
-}
+} */
 
 .services .serv-content .card:hover i {
   color: #fff;
