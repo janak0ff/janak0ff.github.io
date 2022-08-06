@@ -968,7 +968,7 @@ footer {
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
-  
+  margin-top: 80px;
   margin-bottom: 50px;
 
   align-items: center;
