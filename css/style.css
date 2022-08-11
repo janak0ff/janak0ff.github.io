@@ -787,6 +787,9 @@
   color: #fff;
   font-size: 25px;
 }
+.navbar-brand strong:hover{
+  color: #2ede98;
+}
 
 @media screen and (max-width: 956px) {
   .navbar-logo strong {
