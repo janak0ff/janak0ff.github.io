@@ -790,13 +790,13 @@
 
 @media screen and (max-width: 956px) {
   .navbar-logo strong {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 591px) {
   .navbar-logo strong {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
