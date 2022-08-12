@@ -1632,7 +1632,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: hwb(204 57% 8% / 0);
-  content: "what i'm learning";
+  content: "Endless learning";
 }
 
 /* .services .serv-content .card {
@@ -1765,16 +1765,17 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: "who with me";
+  content: "I can do.";
 }
 
 .teams .carousel .card {
   background: #222;
   border-radius: 6px;
-  padding: 25px 35px;
+  padding: 20px 15px;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  margin-top: 10px;
 }
 
 .teams .carousel .card:hover {
@@ -1800,8 +1801,8 @@ section .title::after {
 }
 
 .teams .carousel .card img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 205px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid rgb(41, 77, 196);
