@@ -747,7 +747,7 @@
   margin: auto;
   font-size: 20px;
   font-weight: 600;
-  font-family: cursive;
+  font-family: Arial;
 }
 
 @media screen and (max-width: 417px) {
@@ -1003,7 +1003,7 @@
 }
 
 h1 {
-  font-family: cursive;
+  font-family: Arial;
   /* font-size: 200px; */
   text-align: center;
   text-transform: capitalize;
@@ -1100,7 +1100,7 @@ h1.wrapper>div {
   background-clip: text;
   -webkit-background-clip: text;
   color: #363833;
-  font-family: "Rubik Beastly", cursive;
+  font-family: "Rubik Beastly", Arial;
   font-weight: 900;
   font-size: 220px;
   grid-area: overlap;
@@ -1221,7 +1221,7 @@ section {
 .teams,
 .contact,
 footer {
-  font-family: cursive;
+  font-family: Arial;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1433,14 +1433,14 @@ section .title::after {
 
 .home .home-content .text-1 {
   font-size: 27px;
-  font-family: cursive;
+  font-family: Arial;
 }
 
 .home .home-content .text-2 {
   font-size: 70px;
   font-weight: 600;
   margin-left: -3px;
-  font-family: cursive;
+  font-family: Arial;
 }
 @media (max-width:1212px){
   .home .home-content .text-2 {
@@ -1450,7 +1450,7 @@ section .title::after {
 .home .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
-  font-family: cursive;
+  font-family: Arial;
 }
 
 .home .home-content .text-3 span {
@@ -2010,7 +2010,7 @@ footer span a:hover {
 
   .home .home-content .text-3 {
     font-size: 35px;
-    font-family: cursive;
+    font-family: Arial;
   }
 
   .home .home-content a {
