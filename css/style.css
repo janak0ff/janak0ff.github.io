@@ -1210,7 +1210,7 @@ section {
 }
 
 .max-width {
-  max-width: 1300px;
+  max-width: 1920px;
   padding: 10px 80px;
   margin: auto;
 }
@@ -1567,8 +1567,9 @@ section .title::after {
 }
 
 .about .about-content .left {
-  width: 45%;
+  width: 35%;
 }
+
 
 /* .about .about-content .left img {
   height: 400px;
@@ -1578,7 +1579,7 @@ section .title::after {
 } */
 
 .about .about-content .right {
-  width: 55%;
+  width: 65%;
 }
 
 .about .about-content .right .text {
