@@ -1418,12 +1418,12 @@ section .title::after {
 }
 
 .home .home-content .text-1 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: Monospace;
 }
 
 .home .home-content .text-2 {
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 600;
   margin-left: -3px;
   font-family: Monospace;
