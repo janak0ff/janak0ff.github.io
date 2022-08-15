@@ -1254,7 +1254,7 @@ footer {
 
 section .title {
   position: relative;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   text-align: center;
   font-size: 40px;
   font-weight: 500;
