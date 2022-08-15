@@ -1276,12 +1276,12 @@ section .title {
 
 section .title::after {
   position: absolute;
-  bottom: -10px;
+  bottom: -6px;
 
   left: 50%;
   font-size: 16px;
   color: rgb(39, 43, 61);
-  padding: 0 5px;
+  /* padding: 0 5px; */
 
   /* background: rgba(51, 44, 44, 0.582); */
   transform: translateX(-50%);
