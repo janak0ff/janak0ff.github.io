@@ -142,7 +142,7 @@ body {
   .images img {
     height: 60%;
     position: absolute;
-    left: 45%;
+    left: 50%;
    
     top: -10%;
     transform: translateX(-50%);
