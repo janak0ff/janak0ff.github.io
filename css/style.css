@@ -1991,13 +1991,13 @@ footer span a:hover {
 /* responsive media query start */
 @media (max-width: 1368px) {
   .home .home-content .text-1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .home .home-content .text-2 {
     font-size: 60px;
   }
   .home .home-content .text-3 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
