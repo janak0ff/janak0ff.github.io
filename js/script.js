@@ -35,14 +35,28 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Wordpress Developer", "Web Developer", "Web Designer", "Blogger", "Graphics Designer", "Freelancer"],
+    strings: [
+      "Wordpress Developer",
+      "Web Developer",
+      "Web Designer",
+      "Blogger",
+      "Graphics Designer",
+      "Freelancer",
+    ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Wordpress Developer", "Web Developer", "Web Designer", "Blogger", "Graphics Designer", "Freelancer"],
+    strings: [
+      "Wordpress Developer",
+      "Web Developer",
+      "Web Designer",
+      "Blogger",
+      "Graphics Designer",
+      "Freelancer",
+    ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -152,4 +166,39 @@ jQuery(document).ready(function ($) {
 //     })
 // });
 
+// ==========password for Academic docs==================
+function Academic() {
+  var passcode = "janak0ff";
+  var password = prompt("Please enter password to view this page...!");
+
+  password == passcode
+    ? (window.location = "./Academic Certificate.html")
+    : alert("Password incorrect...!  Fill contact form to get password...!");}
+// =============================    end  +++++=============
+
+// ================   password for official docs -==========================
+function Official() {
+  var passcode = "janak0ff";
+  var password = prompt("Please enter password to view this page...!");
+
+  password == passcode
+    ? (window.location = "./Official Docs.html")
+    : alert("Password incorrect...!  Fill contact form to get password...!");}
+// =============================    end  +++++=============
+
+
+
+
+
+
+
+
+
+
+
+  // if (password == passcode) {
+  //   window.location = "./Academic Certificate.html";
+  // } else {
+  //   alert("Password incorrect...!  Fill contact form to get password...!");
+  // }
 
