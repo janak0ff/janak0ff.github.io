@@ -173,7 +173,8 @@ function Academic() {
 
   password == passcode
     ? (window.location = "./Academic Certificate.html")
-    : alert("Password incorrect...!  Fill contact form to get password...!");}
+    : alert("Password incorrect...!  Fill contact form to get password...!");
+}
 // =============================    end  +++++=============
 
 // ================   password for official docs -==========================
@@ -183,22 +184,12 @@ function Official() {
 
   password == passcode
     ? (window.location = "./Official Docs.html")
-    : alert("Password incorrect...!  Fill contact form to get password...!");}
+    : alert("Password incorrect...!  Fill contact form to get password...!");
+}
 // =============================    end  +++++=============
 
-
-
-
-
-
-
-
-
-
-
-  // if (password == passcode) {
-  //   window.location = "./Academic Certificate.html";
-  // } else {
-  //   alert("Password incorrect...!  Fill contact form to get password...!");
-  // }
-
+// if (password == passcode) {
+//   window.location = "./Academic Certificate.html";
+// } else {
+//   alert("Password incorrect...!  Fill contact form to get password...!");
+// }

@@ -1250,11 +1250,11 @@ footer {
 
 section .title {
   position: relative;
-  /* margin-top: 60px; */
+   margin-top: 60px; 
   text-align: center;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 70pxpx;
+  /* margin-bottom: 70px; */
   padding-bottom: 15px;
   font-family: monospace,"Ubuntu", sans-serif;
 }
