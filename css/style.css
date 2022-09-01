@@ -5,8 +5,8 @@
 }
 body {
   margin: 0;
-  font-family: monospace,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Monospace, "Noto Sans", "Liberation Sans", monospace,
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue",  Futura,Trebuchet MS,Arial,sans-serif, "Noto Sans", "Liberation Sans",  Futura,Trebuchet MS,Arial,sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 18px !important;
   font-weight: 400;
@@ -747,7 +747,7 @@ body {
   margin: auto;
   font-size: 20px;
   font-weight: 600;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 @media screen and (max-width: 417px) {
@@ -873,7 +873,7 @@ body {
   right: 20px;
   top: 10px;
   font-size: 14px;
-  font-family: monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
   display: inline-block;
   padding-right: 3px;
   vertical-align: middle;
@@ -1008,7 +1008,7 @@ body {
 }
 
 h1 {
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
   /* font-size: 200px; */
   text-align: center;
   text-transform: capitalize;
@@ -1104,7 +1104,7 @@ h1.wrapper > div {
   background-clip: text;
   -webkit-background-clip: text;
   color: #363833;
-  font-family:  Monospace;
+  font-family:   Futura,Trebuchet MS,Arial,sans-serif;
   font-weight: 900;
   font-size: 220px;
   grid-area: overlap;
@@ -1221,7 +1221,7 @@ section {
 .teams,
 .contact,
 footer {
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1231,7 +1231,7 @@ footer {
   .teams,
   .contact,
   footer {
-    font-family: monospace,"Poppins", monospace;
+    font-family:  Futura,Trebuchet MS,Arial,sans-serif,"Poppins",  Futura,Trebuchet MS,Arial,sans-serif;
   }
 }
 
@@ -1256,7 +1256,7 @@ section .title {
   font-weight: 500;
   /* margin-bottom: 70px; */
   padding-bottom: 15px;
-  font-family: monospace,"Ubuntu", monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif,"Ubuntu",  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 /* section .title::before {
@@ -1289,7 +1289,7 @@ section .title::after {
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', monospace;
+    font-family: 'Ubuntu',  Futura,Trebuchet MS,Arial,sans-serif;
     transition: all 0.3s ease;
 } */
 /* .navbar.sticky{
@@ -1386,7 +1386,7 @@ section .title::after {
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
   position: relative;
 }
 
@@ -1415,14 +1415,14 @@ section .title::after {
 
 .home .home-content .text-1 {
   font-size: 60px;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 .home .home-content .text-2 {
   font-size: 90px;
   font-weight: 600;
   margin-left: -3px;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 /* 
 @media (max-width: 1378px) {
@@ -1436,14 +1436,14 @@ section .title::after {
 
 .home .home-content .text-1 {
   font-size: 27px;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 .home .home-content .text-2 {
   font-size: 70px;
   font-weight: 600;
   margin-left: -3px;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 } */
 /* @media (max-width: 786px) {
   .home .max-width {
@@ -1456,14 +1456,14 @@ section .title::after {
 
 .home .home-content .text-1 {
   font-size: 27px;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 .home .home-content .text-2 {
   font-size: 70px;
   font-weight: 600;
   margin-left: -3px;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 } */
 /* @media (max-width: 1212px) {
   .home .home-content .text-2 {
@@ -1474,7 +1474,7 @@ section .title::after {
 .home .home-content .text-3 {
   font-size: 45px;
   margin: 5px 0;
-  font-family: Monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 .home .home-content .text-3 span {
@@ -1914,7 +1914,7 @@ section .title::after {
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: monospace,"Poppins", monospace;
+  font-family:  Futura,Trebuchet MS,Arial,sans-serif,"Poppins",  Futura,Trebuchet MS,Arial,sans-serif;
   transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
@@ -2038,7 +2038,7 @@ footer span a:hover {
 
   .home .home-content .text-3 {
     font-size: 35px;
-    font-family: Monospace;
+    font-family:  Futura,Trebuchet MS,Arial,sans-serif;
   }
 
   .home .home-content a {
