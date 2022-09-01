@@ -1486,7 +1486,7 @@ section .title::after {
   display: inline-block;
   background: rgba(41, 77, 196, 0);
   color: #6c757d;
-  font-size: 25px;
+  font-size: 15px;
   padding: 6px 0px;
   margin-top: 0px;
   font-weight: 400;
