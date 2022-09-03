@@ -1,3 +1,14 @@
+
+// ===================== js for pre loader =================
+var loader = document.querySelector(".cssload-preloader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
+// ++++++++++++ end pre loader   __________________
+
+
+
+
 $(document).ready(function () {
   $(window).scroll(function () {
     // sticky navbar on scroll script
