@@ -1624,13 +1624,14 @@ section .title::after {
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
   transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .about .about-content .right a:hover {
   color: rgb(41, 77, 196);
   text-decoration: none;
   background: none;
-  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  box-shadow: 6px 6px 12px #c5c5c5, 6px 6px 12px #ffffff;
 }
 .about .about-content .right a:active {
   color: #666;
@@ -1926,14 +1927,21 @@ section .title::after {
   font-family: Futura, Trebuchet MS, Arial, sans-serif, "Poppins", Futura,
     Trebuchet MS, Arial, sans-serif;
   transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus {
   border-color: #b3b3b3;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+  rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+  rgba(240, 46, 170, 0.05) 25px 25px;
 }
+
 .contact .right form .textarea textarea {
   padding-top: 10px;
   resize: none;
+
 }
 .contact .right form .button-area {
   display: flex;
@@ -1950,7 +1958,8 @@ section .title::after {
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
   transition: all 0.3s;
@@ -1961,7 +1970,6 @@ section .title::after {
 .right form .button-area button:hover {
   color: rgb(41, 77, 196);
   background: #b2d8da;
-
   box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
 }
 
