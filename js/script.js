@@ -187,9 +187,3 @@ function Official() {
     : alert("Password incorrect...!  Fill contact form to get password...!");
 }
 // =============================    end  +++++=============
-
-// if (password == passcode) {
-//   window.location = "./Academic Certificate.html";
-// } else {
-//   alert("Password incorrect...!  Fill contact form to get password...!");
-// }
