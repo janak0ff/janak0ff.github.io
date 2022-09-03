@@ -153,7 +153,7 @@ body {
 
 @media screen and (max-device-width: 465px) {
   #onlyforpc,
-  #g-drive {
+  #ga-drive {
     display: none;
   }
 }
@@ -448,7 +448,7 @@ body {
 
 @media screen and (max-device-width: 465px) {
   #onlyforpc,
-  #g-drive {
+  #ga-drive {
     display: none;
   }
 }
@@ -740,6 +740,17 @@ body {
 /* ==================== end certificate ++++++++++++++++++++ */
 
 #g-drive {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  padding: 10px 0px 5px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+#ga-drive {
   text-align: center;
   max-width: 100%;
   height: auto;
