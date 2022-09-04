@@ -179,7 +179,7 @@ jQuery(document).ready(function ($) {
 
 // ==========password for Academic docs==================
 function Academic() {
-  var passcode = "janak0ff";
+  var passcode = "janak";
   var password = prompt("Please enter password to view this page...!");
 
   password == passcode
@@ -190,7 +190,7 @@ function Academic() {
 
 // ================   password for official docs -==========================
 function Official() {
-  var passcode = "janak0ff";
+  var passcode = "janak";
   var password = prompt("Please enter password to view this page...!");
 
   password == passcode
