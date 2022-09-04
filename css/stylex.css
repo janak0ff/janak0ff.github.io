@@ -1542,12 +1542,12 @@ section .title::after {
 }
 
 .home .home-content .text-1 {
-  font-size: 60px;
+  font-size: 45px;
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
 .home .home-content .text-2 {
-  font-size: 90px;
+  font-size: 70px;
   font-weight: 600;
   margin-left: -3px;
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
@@ -1600,7 +1600,7 @@ section .title::after {
 } */
 
 .home .home-content .text-3 {
-  font-size: 45px;
+  font-size: 35px;
   margin: 5px 0;
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
