@@ -1563,7 +1563,7 @@ section .title::after {
 }
 
 .home .max-width {
-  width: 82%;
+  width: 57%;
   display: flex;
   position: absolute;
   top: 145px;
@@ -1684,18 +1684,7 @@ section .title::after {
 .home .home-content ul li a {
   width: 40px;
   height: 40px;
-  background-image: linear-gradient(
-      0deg,
-      rgb(255, 255, 255) 0%,
-      rgb(255, 255, 255) 67.21%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    linear-gradient(
-      -103.35deg,
-      rgb(215, 252, 254) 3.73%,
-      rgb(251, 213, 250) 56.7%,
-      rgb(254, 224, 213) 100.35%
-    );
+ 
   /* background-color: #fff; */
   text-align: center;
   line-height: 0px;
