@@ -96,6 +96,31 @@ $(document).ready(function () {
   });
 });
 
+
+
+// ========== for Academic docs==================
+function Academic() {
+  var pass = "janak";
+  var word = prompt("Please enter password to view this page...!");
+
+  word == pass
+    ? (window.location = "./Academic Certificate.html")
+    : alert("Password incorrect...!  Fill contact form to get password...!");
+}
+// =============================    end  +++++=============
+
+// ================ for official docs -==========================
+function Official() {
+  var pass = "kumar";
+  var password = prompt("Please enter password to view this page...!");
+
+  word == pass
+    ? (window.location = "./Official Docs.html")
+    : alert("Password incorrect...!  Fill contact form to get password...!");
+}
+// =============================    end  +++++=============
+
+
 // ---------Responsive-navbar-active-animation-----------
 function test() {
   var tabsNewAnim = $("#navbarSupportedContent");
@@ -158,28 +183,6 @@ jQuery(document).ready(function ($) {
   target.parent().addClass("active");
 });
 
-
-// ==========password for Academic docs==================
-function Academic() {
-  var passcode = "janak";
-  var password = prompt("Please enter password to view this page...!");
-
-  password == passcode
-    ? (window.location = "./Academic Certificate.html")
-    : alert("Password incorrect...!  Fill contact form to get password...!");
-}
-// =============================    end  +++++=============
-
-// ================   password for official docs -==========================
-function Official() {
-  var passcode = "janak";
-  var password = prompt("Please enter password to view this page...!");
-
-  password == passcode
-    ? (window.location = "./Official Docs.html")
-    : alert("Password incorrect...!  Fill contact form to get password...!");
-}
-// =============================    end  +++++=============
 
 
 
