@@ -112,7 +112,7 @@ function Academic() {
 // ================ for official docs -==========================
 function Official() {
   var pass = "kumar";
-  var password = prompt("Please enter password to view this page...!");
+  var word = prompt("Please enter password to view this page...!");
 
   word == pass
     ? (window.location = "./Official Docs.html")
