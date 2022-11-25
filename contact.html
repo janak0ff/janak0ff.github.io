@@ -60,7 +60,7 @@
       );
     }
   </script>
-<!-- ---------------end js for mailing system ----------- -->
+  <!-- ---------------end js for mailing system ----------- -->
 </head>
 
 <body>
@@ -75,6 +75,11 @@
     </div>
   </div>
   <!-- end loader -->
+  <!-- ----------------scroll indicator------------ -->
+  <div class="headertoop">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  <!-- -------------end------------ -->
   <div class="scroll-up-btn">
     <i class="fas fa-angle-up"></i>
   </div>
@@ -183,24 +188,24 @@
             To get password of locked menu in navbar, just fill the form and send with your correct E-mail address.
             <span> &ldquo;Instantly you will get response. &rdquo;</span>
           </div>
-          <form id="my_form">
+          <form name="myForm" onsubmit="return validateForm()" method="post" id="my_form" required>
             <div class="fields">
               <div class="field name">
-                <input type="text" id="name" name="fullname" placeholder="Enter your Name" required />
+                <input type="text" id="name" name="fullname" placeholder="Enter your Name" />
               </div>
               <div class="field email">
-                <input type="email" id="email" name="email" placeholder="Please enter correct E-mail" required />
+                <input type="email" id="email" name="email" placeholder="Please enter correct E-mail" />
               </div>
             </div>
             <div class="field">
               <input type="text" name="subject" id="subject" placeholder="Subject goes here" />
             </div>
             <div class="field textarea">
-              <textarea id="message" cols="30" rows="10" placeholder="Let's discuss briefly..." required></textarea>
+              <textarea id="message" cols="30" name="textarea" rows="10"
+                placeholder="Let's discuss briefly..."></textarea>
             </div>
             <div class="button-area">
-
-              <button class="button-n" onclick="sendmail()" type="button" value="Reset form">
+              <button class="button-n" type="submit" value="Submit">
                 <div class="svg-wrapper-1">
                   <div class="svg-wrapper">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -221,9 +226,12 @@
     </div>
 
   </section>
-  <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1LEoNp2eV97NARfGayKDFtFeIUfzlDL0&ehbc=2E312F"
-    frameborder="0"></iframe>
-
+  <!-- ------------------- google map -----------------------  -->
+  <div class="iframecontainer">
+    <iframe class="responsive-iframe"
+      src="https://www.google.com/maps/d/u/0/embed?mid=1LEoNp2eV97NARfGayKDFtFeIUfzlDL0&ehbc=2E312F"></iframe>
+  </div>
+  <!-- ------------------------ end  --------------------------  -->
   <!-- footer section start -->
   <footer>
     <span>Created By

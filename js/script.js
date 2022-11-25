@@ -7,7 +7,6 @@ window.addEventListener("load", function () {
 
 
 
-
 $(document).ready(function () {
   $(window).scroll(function () {
     // sticky navbar on scroll script
@@ -183,4 +182,14 @@ jQuery(document).ready(function ($) {
   target.parent().addClass("active");
 });
 
+
+function validateForm() {
+  var x = document.forms["myForm"]["fullname"]["email"]["subject"]["textarea"].value;
+  if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  } else{
+    sendmail();
+  }
+}
 
