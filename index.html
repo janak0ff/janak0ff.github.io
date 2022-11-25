@@ -59,7 +59,6 @@
         })();
     </script>
     <!-- -------------------------------------------- -->
-
     <script type="text/javascript">
         function sendmail() {
             let fullName = document.getElementById("name").value;
@@ -82,28 +81,8 @@
                     document.getElementById('email').value = ""
                     document.getElementById('subject').value = ""
                 },
-
             );
         }
-
-
-
-        // ------------ scroll function  ------------
-        window.onscroll = () => {
-            // ------------ scroll indicator ------------
-            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            let scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
-            // ------------ end -----------------
-
-            //------------- hide navbar on scroll -----------------
-            let currentScrollPos = window.pageYOffset;
-            (prevScrollpos > currentScrollPos) ? document.getElementsByTagName("nav").style.opacity = "1" : document.getElementsByTagName("nav").style.opacity = "0";
-            prevScrollpos = currentScrollPos;
-        }
-        let prevScrollpos = window.pageYOffset;
-// ----------end--------------
     </script>
     <!-- ---------------end js for mailing system ----------- -->
 
@@ -136,9 +115,11 @@
     </div>
     <!-- -------------end------------ -->
 
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
+   
+  <!-- ------------------- scroll up btn -----------------  -->
+  <div id="scrollup" title="Go to top" onclick="document.documentElement.scrollTop = 0;">&xutri;</div>
+  <!-- ------------ end -------------  -->
+  
     <nav class="navbar navbar-expand-custom navbar-mainbg">
         <a class="navbar-brand navbar-logo" href="index.html"> <img src="./img/fav/favicon.ico" /><strong
                 style="font-family:  Futura,'Trebuchet MS',Arial,sans-serif;">Janak Shrestha</strong></a>

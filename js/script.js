@@ -6,6 +6,20 @@ window.addEventListener("load", function () {
 // ++++++++++++ end pre loader   __________________
 
 
+// ------------ scroll function  ------------
+window.onscroll = () => {
+  // ------------ scroll indicator ------------
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+  // ------------ end -----------------
+  
+    // ------------- scroll up btn show --------------
+    (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) ? document.getElementById("scrollup").style.display = "block" : document.getElementById("scrollup").style.display = "none";
+
+}
+
 
 $(document).ready(function () {
   $(window).scroll(function () {
@@ -16,12 +30,6 @@ $(document).ready(function () {
       $(".navbar").removeClass("sticky");
     }
 
-    // scroll-up button show/hide script
-    if (this.scrollY > 500) {
-      $(".scroll-up-btn").addClass("show");
-    } else {
-      $(".scroll-up-btn").removeClass("show");
-    }
   });
 
   // slide-up script
@@ -188,7 +196,7 @@ function validateForm() {
   if (x == "" || x == null) {
     alert("Name must be filled out");
     return false;
-  } else{
+  } else {
     sendmail();
   }
 }

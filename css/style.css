@@ -777,7 +777,7 @@ html {
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -785,11 +785,11 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(219, 211, 211);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(255, 255, 255);
 }
 
 /* all similar content styling codes */
@@ -947,35 +947,6 @@ section .title::after {
   display: none;
 }
 
-.scroll-up-btn {
-  position: fixed;
-  height: 45px;
-  width: 42px;
-  background: rgb(41, 77, 196);
-  right: 30px;
-  bottom: 10px;
-  text-align: center;
-  line-height: 45px;
-  color: #fff;
-  z-index: 99 !important;
-  font-size: 30px;
-  border-radius: 6px;
-  border-bottom-width: 2px;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-
-.scroll-up-btn.show {
-  bottom: 30px;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.scroll-up-btn:hover {
-  filter: brightness(90%);
-}
 
 /* home section styling */
 .home {
@@ -1902,9 +1873,37 @@ footer span a:hover {
 }
 
 .progress-bar {
-  height: 2px;
-  background: #ced4da;
+  height: 4px;
+  background: white;
   width: 0%;
 }
 
 /* -------------- end ------------- */
+
+
+/* ---------------------- scroll up btn -----------------  */
+#scrollup {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  right: 30px;
+  bottom: 10px;
+  color: #fff;
+  background: rgb(41, 77, 196);
+  font-size: 40px;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 99;
+  display: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+}
+
+
+#scrollup:hover {
+  opacity: 1;
+  color: #fbff00;
+}
+
+/* --------------- end ------------------------  */
