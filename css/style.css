@@ -1907,3 +1907,56 @@ footer span a:hover {
 }
 
 /* --------------- end ------------------------  */
+
+
+/* footer */
+#footer_wrapper {
+  background-color: #242526f1;
+}
+
+#footer {
+  padding: 0px 5px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+#footer a>span {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 835px) {
+  #footer a>#janakkumarshrestha {
+    font-size: 15px;
+    display: block;
+  }
+
+  #footer a {
+    font-size: 12px;
+  }
+}
+
+#footer .footer_menu {
+  margin: 0 0 10px 0;
+  padding: 0px;
+  list-style: none;
+}
+
+.footer_menu li {
+  margin: 0px;
+  padding: 0 20px;
+  display: inline;
+  border-right: 1px solid #aea68c;
+}
+
+.footer_menu li a {
+  color: #ffffff;
+}
+
+.footer_menu .last_menu {
+  border: none;
+}
+
+/* ========================= end footer ===================================   */
