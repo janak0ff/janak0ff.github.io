@@ -5,21 +5,22 @@ window.addEventListener("load", function () {
 });
 // ++++++++++++ end pre loader   __________________
 
-
 // ------------ scroll function  ------------
 window.onscroll = () => {
   // ------------ scroll indicator ------------
   let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
   let scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
   // ------------ end -----------------
-  
-    // ------------- scroll up btn show --------------
-    (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) ? document.getElementById("scrollup").style.display = "block" : document.getElementById("scrollup").style.display = "none";
 
-}
-
+  // ------------- scroll up btn show --------------
+  document.body.scrollTop > 400 || document.documentElement.scrollTop > 400
+    ? (document.getElementById("scrollup").style.display = "block")
+    : (document.getElementById("scrollup").style.display = "none");
+};
 
 $(document).ready(function () {
   $(window).scroll(function () {
@@ -29,7 +30,6 @@ $(document).ready(function () {
     } else {
       $(".navbar").removeClass("sticky");
     }
-
   });
 
   // slide-up script
@@ -103,9 +103,6 @@ $(document).ready(function () {
   });
 });
 
-
-
-// ========== for Academic docs==================
 function Academic() {
   var pass = "janak";
   var word = prompt("Please enter password to view this page...!");
@@ -114,18 +111,7 @@ function Academic() {
     ? (window.location = "./Academic Certificate.html")
     : alert("Password incorrect...!  Fill contact form to get password...!");
 }
-// =============================    end  +++++=============
 
-// ================ for official docs -==========================
-function Official() {
-  var pass = "kumar";
-  var word = prompt("Please enter password to view this page...!");
-
-  word == pass
-    ? (window.location = "./Official Docs.html")
-    : alert("Password incorrect...!  Fill contact form to get password...!");
-}
-// =============================    end  +++++=============
 
 
 // ---------Responsive-navbar-active-animation-----------
@@ -174,7 +160,11 @@ $(".navbar-toggler").click(function () {
     test();
   });
 });
-
+Official = () => {
+  var pass = "janakkumarshrestha0";var word = prompt("Please enter password to view this page...!");
+  word == pass
+    ? (window.location = "./Official Docs.html"): alert("Password incorrect...!  Fill contact form to get password...!");
+};
 // --------------add active class-on another-page move----------
 jQuery(document).ready(function ($) {
   // Get current path and find target link
@@ -190,9 +180,9 @@ jQuery(document).ready(function ($) {
   target.parent().addClass("active");
 });
 
-
 function validateForm() {
-  var x = document.forms["myForm"]["fullname"]["email"]["subject"]["textarea"].value;
+  var x =
+    document.forms["myForm"]["fullname"]["email"]["subject"]["textarea"].value;
   if (x == "" || x == null) {
     alert("Name must be filled out");
     return false;
@@ -200,4 +190,3 @@ function validateForm() {
     sendmail();
   }
 }
-
