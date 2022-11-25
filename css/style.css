@@ -786,6 +786,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background: rgb(219, 211, 211);
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
