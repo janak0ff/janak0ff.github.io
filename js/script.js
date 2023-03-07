@@ -3,6 +3,9 @@ var loader = document.querySelector(".cssload-preloader");
 window.addEventListener("load", function () {
   loader.style.display = "none";
 });
+setTimeout(() => {
+  var loader0 = document.querySelector(".cssload0-preloader").style.display = "none";
+}, 5000);
 // ++++++++++++ end pre loader   __________________
 
 // ------------ scroll function  ------------
