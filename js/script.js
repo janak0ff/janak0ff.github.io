@@ -4,7 +4,8 @@ window.addEventListener("load", function () {
   loader.style.display = "none";
 });
 setTimeout(() => {
-  var loader0 = document.querySelector(".cssload0-preloader").style.display = "none";
+  var loader0 = (document.querySelector(".cssload0-preloader").style.display =
+    "none");
 }, 5000);
 // ++++++++++++ end pre loader   __________________
 
@@ -56,31 +57,30 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
-      "Wordpress Developer",
-      "Web Developer",
-      "Web Designer",
+      "MERN",
+      "React Developer",
+      "Next Js Developer",
       "Blogger",
-      "Graphics Designer",
-      "Freelancer",
+      "Digital Marketing",
     ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
 
-  var typed = new Typed(".typing-2", {
-    strings: [
-      "Wordpress Developer",
-      "Web Developer",
-      "Web Designer",
-      "Blogger",
-      "Graphics Designer",
-      "Freelancer",
-    ],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-  });
+  // var typed = new Typed(".typing-2", {
+  //   strings: [
+  //     "Wordpress Developer",
+  //     "Web Developer",
+  //     "Web Designer",
+  //     "Blogger",
+  //     "Graphics Designer",
+  //     "Freelancer",
+  //   ],
+  //   typeSpeed: 100,
+  //   backSpeed: 60,
+  //   loop: true,
+  // });
 
   // owl carousel script
   $(".carousel").owlCarousel({
@@ -114,8 +114,6 @@ function Academic() {
     ? (window.location = "./Academic Certificate.html")
     : alert("Password incorrect...!  Fill contact form to get password...!");
 }
-
-
 
 // ---------Responsive-navbar-active-animation-----------
 function test() {
@@ -164,9 +162,11 @@ $(".navbar-toggler").click(function () {
   });
 });
 Official = () => {
-  var pass = "janakkumarshrestha0";var word = prompt("Please enter password to view this page...!");
+  var pass = "janakkumarshrestha0";
+  var word = prompt("Please enter password to view this page...!");
   word == pass
-    ? (window.location = "./Official Docs.html"): alert("Password incorrect...!  Fill contact form to get password...!");
+    ? (window.location = "./Official Docs.html")
+    : alert("Password incorrect...!  Fill contact form to get password...!");
 };
 // --------------add active class-on another-page move----------
 jQuery(document).ready(function ($) {
