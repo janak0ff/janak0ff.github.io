@@ -313,7 +313,6 @@
   font-size: 1.8rem;
 }
 
-
 /**************************/
 /* CTA SECTION */
 /**************************/
@@ -482,9 +481,7 @@ textarea {
 
 .footer-nav {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
+  line-height: 1.6;
 }
 
 .footer-link:link,
