@@ -404,25 +404,38 @@
                 get back to you as soon as possible.
               </p>
 
-              <form class="cta-form" name="sign-up" netlify>
+              <form
+                action="https://formspree.io/f/mzzbkzdz"
+                method="POST"
+                class="cta-form"
+                name="sign-up"
+                netlify
+              >
                 <div class="cta-form nameEmail">
                   <div>
                     <label for="full-name">Full Name</label>
                     <input
                       id="full-name"
                       type="text"
-                      placeholder="Sita Shrestha"
-                      name="full-name"
+                      placeholder="Your Full Name"
+                      name="Name"
                       required
                     />
                   </div>
-
+                  <!-- this is the subject for your mail -->
+                  <input
+                    name="subject"
+                    type="hidden"
+                    value="Portfolio - New messgae from {{ Name }}"
+                  />
+                  <!-- Honeypot spam filtering -->
+                  <input type="text" name="_gotcha" style="display: none" />
                   <div>
                     <label for="email">Email address</label>
                     <input
                       id="email"
                       type="email"
-                      placeholder="me@example.com"
+                      placeholder="Your Email"
                       name="email"
                       required
                     />
@@ -433,13 +446,14 @@
                   <label for="message">Message</label>
                   <textarea
                     required
+                    name="Message"
                     rows="6"
                     placeholder="Enter Your Message"
                     class="cta-form input textarea"
                   ></textarea>
                 </div>
 
-                <button class="btn btn--form">Submit</button>
+                <button class="btn btn--form" type="submit">Submit</button>
               </form>
             </div>
             <div class="cta-img-box" role="img" aria-label="Janak0ff"></div>
