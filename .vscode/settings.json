@@ -1,0 +1,6 @@
+{
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "editor.suggest.showStatusBar": true,
+    "zenMode.hideStatusBar": false,
+    "problems.showCurrentInStatus": true
+}
