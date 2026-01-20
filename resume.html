@@ -257,7 +257,14 @@
             background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
             color: white;
             padding: 3rem 2rem;
-            text-align: center;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .header-content {
+            flex: 1;
+            text-align: left;
         }
 
         h1 {
@@ -271,7 +278,7 @@
         .contact-info {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: flex-start;
             gap: 1.5rem;
             margin-top: 1.5rem;
             font-size: 0.9rem;
@@ -309,6 +316,16 @@
         .contact-item a:hover {
             color: white;
             border-bottom-color: white;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            flex-shrink: 0;
         }
 
         /* Main Content */
@@ -477,6 +494,16 @@
 
             header {
                 padding: 2rem 1rem;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header-content {
+                text-align: center;
+            }
+
+            .contact-info {
+                justify-content: center;
             }
 
             h1 {
@@ -494,12 +521,6 @@
 
             .role-title {
                 margin-top: 0.25rem;
-            }
-
-            .contact-info {
-                flex-direction: column;
-                gap: 0.75rem;
-                align-items: center;
             }
 
             .grid-2 {
@@ -527,6 +548,13 @@
                 color: black;
                 padding: 0 0 2rem 0;
                 border-bottom: 2px solid var(--primary-color);
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+            }
+
+            .header-content {
+                text-align: left;
             }
 
             h1 {
@@ -582,35 +610,38 @@
 
     <div class="resume-container">
         <header>
-            <h1>Janak Kumar Shrestha</h1>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                    </svg>
-                    <span>Kathmandu, Nepal</span>
-                </div>
-                <div class="contact-item">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-                    </svg>
-                    <span>+977 9826894008</span>
-                </div>
-                <div class="contact-item">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-                    </svg>
-                    <a href="mailto:janakshresthapro@gmail.com">janakshresthapro@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
-                    </svg>
-                    <a href="https://www.janakkumarshrestha0.com.np/" target="_blank">Portfolio Website</a>
+            <img src="img/janak-resume.jpg" alt="Janak Kumar Shrestha" class="profile-pic">
+            <div class="header-content">
+                <h1>Janak Kumar Shrestha</h1>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                        </svg>
+                        <span>Kathmandu, Nepal</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                        </svg>
+                        <span>+977 9826894008</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                        <a href="mailto:janakshresthapro@gmail.com">janakshresthapro@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                        </svg>
+                        <a href="https://www.janakkumarshrestha0.com.np/" target="_blank">Portfolio Website</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -641,12 +672,19 @@
                     <div class="role-title">DevOps Training</div>
                     <div class="details">
                         <ul>
-                            <li>Completed an intensive hands-on training program covering the full DevOps lifecycle,
-                                mastering tools such as <span class="highlight">Docker, Kubernetes</span>, Terraform,
-                                and Ansible.</li>
-                            <li>Successfully delivered a capstone project by automating a microservices deployment
-                                pipeline using <span class="highlight">Jenkins and GitHub Actions</span>, enabling
-                                continuous integration and delivery.</li>
+                            <li>Covering Linux fundamentals, networking, cryptography, source control management (Git),
+                                RDBMS, establishing a strong foundation in DevOps prerequisites and best
+                                practices.</li>
+                            <li>Hands-on experience with containerization and orchestration technologies including <span
+                                    class="highlight">Docker and Kubernetes</span>, building multi-container
+                                applications with Docker Compose, managing pods and deployments, and implementing CI/CD
+                                pipelines with Jenkins for automated application delivery.</li>
+                            <li>Automated infrastructure provisioning using <span class="highlight">Ansible
+                                    playbooks</span> and Infrastructure as Code (IaC) with Terraform,
+                                reducing manual configuration efforts and ensuring consistent environments.</li>
+                            <li>Gained hands-on experience with <span class="highlight">AWS cloud services</span>
+                                including EC2, VPC, S3, RDS, Lambda, and Auto Scaling Groups, Load Balancers, and IAM
+                                policies and deploying scalable applications.</li>
                         </ul>
                     </div>
                 </article>
@@ -659,15 +697,22 @@
                     <div class="role-title">AWS Solutions Architect Associate - Apprenticeship</div>
                     <div class="details">
                         <ul>
-                            <li>Collaborated with senior architects to design resilient <span class="highlight">AWS
-                                    cloud architectures</span>, ensuring alignment with the Well-Architected Framework
-                                for enterprise applications.</li>
-                            <li>Assisted in analyzing cloud usage patterns to identify <span
-                                    class="highlight">cost-optimization opportunities</span>, suggesting strategies
-                                including Reserved Instances to balance performance and budget.</li>
-                            <li>Supported the execution of cloud migration plans, helping to configure secure <span
-                                    class="highlight">VPC topologies</span> and Identity and Access Management (IAM)
-                                policies.</li>
+                            <li>Completed comprehensive AWS Academy Cloud Architecting program covering <span
+                                    class="highlight">16 modules</span> including compute, storage, databases,
+                                networking, security, and serverless architectures aligned with the AWS Well-Architected
+                                Framework.</li>
+                            <li>Designed and implemented <span class="highlight">scalable, highly available
+                                    solutions</span> through hands-on labs involving Amazon EC2, S3, RDS, VPC, Lambda,
+                                and CloudFormation, demonstrating proficiency in building production-grade AWS
+                                architectures.</li>
+                            <li>Automated infrastructure deployment using <span class="highlight">AWS
+                                    CloudFormation</span> and built decoupled serverless applications with Lambda, API
+                                Gateway, and SQS, reducing manual provisioning efforts and improving system resilience.
+                            </li>
+                            <li>Successfully completed capstone project and course assessment, applying <span
+                                    class="highlight">disaster recovery patterns</span>, cost optimization strategies,
+                                and security best practices including IAM policies, encryption, and VPC security
+                                configurations.</li>
                         </ul>
                     </div>
                 </article>
@@ -680,13 +725,18 @@
                     <div class="role-title">System Administrator - Intern</div>
                     <div class="details">
                         <ul>
-                            <li>Assisted in the administration of <span class="highlight">Linux server
-                                    environments</span>, supporting tasks like patch management, user administration,
-                                and system stability monitoring.</li>
-                            <li>Developed and maintained <span class="highlight">Bash scripts</span> to automate routine
-                                maintenance and backup processes, reducing manual workload for the team.</li>
-                            <li>Helped configure <span class="highlight">web servers (Nginx/Apache)</span> and database
-                                access controls, implementing security best practices under supervision.</li>
+                            <li>Monitored datacenter infrastructure using <span class="highlight">Zabbix monitoring
+                                    system</span>, tracking server health, resource utilization, and system performance
+                                metrics to ensure optimal uptime and proactive issue detection.</li>
+                            <li>Managed cloud resources including <span class="highlight">virtual machines and VPC
+                                    configurations</span> across multiple cloud platforms, provisioning and maintaining
+                                client environments in accordance with service level agreements.</li>
+                            <li>Performed compute resource upgrades on client VMs, scaling <span class="highlight">CPU,
+                                    memory, and disk resources</span> based on performance requirements, and configured
+                                NFS and LVM storage solutions for enhanced data management.</li>
+                            <li>Provided <span class="highlight">customer support and system troubleshooting</span> as a
+                                system administrator, resolving technical issues, responding to service requests, and
+                                maintaining system stability in a datacenter environment.</li>
                         </ul>
                     </div>
                 </article>
@@ -756,12 +806,9 @@
                     <div class="role-title">Bachelor in Computer Applications</div>
                     <div class="details">
                         <ul>
-                            <li>Focused on <span class="highlight">Software Engineering</span>, Data Structures &
-                                Algorithms, and Database Management Systems.</li>
-                            <li>Developed a comprehensive <span class="highlight">Inventory Management System</span> as
-                                a final year project using Java and MySQL.</li>
-                            <li>Active member of the IT Club, organizing coding bootcamps and tech workshops for junior
-                                students.</li>
+                            <li>Completed 3 major projects: <span class="highlight">Dictionary application</span>, Pong
+                                2D Android game, and HAMRO BANK: a signature forgery detection system using machine
+                                learning for banking security.</li>
                         </ul>
                     </div>
                 </article>
@@ -995,6 +1042,8 @@
                         <li class="skill-tag">Terraform</li>
                         <li class="skill-tag">Bash Scripting</li>
                         <li class="skill-tag">Zabbix</li>
+                        <li class="skill-tag">Nextcloud</li>
+                        <li class="skill-tag">NFS & LVM</li>
                     </ul>
                 </div>
             </section>
