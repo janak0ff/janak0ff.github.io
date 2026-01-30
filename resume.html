@@ -847,29 +847,135 @@
         </article>
         <article>
           <div class="item-header">
-            <div class="org-name">Creating an Amazon RDS Database</div>
+            <div class="org-name">Deploying Scalable Relational Database Infrastructure</div>
+            <div class="date-range">20 Minutes Duration</div>
           </div>
           <div class="details">
             <ul>
-              <li>Created a <span class="highlight">MySQL database instance</span> using Amazon RDS (db.t3.micro) in a
-                secure Virtual Private Cloud (VPC).</li>
-              <li>Configured an EC2-hosted web application to connect to the RDS instance using <span
-                  class="highlight">AWS Secrets Manager</span> for secure credential management.</li>
+              <li>Provisioned a high-availability <span class="highlight">MySQL</span> instance on Amazon RDS within a
+                secure VPC environment.</li>
+              <li>Implemented robust security controls using <span class="highlight">AWS Secrets Manager</span> for
+                automated credential management and secure application connectivity.</li>
             </ul>
           </div>
         </article>
         <article>
           <div class="item-header">
-            <div class="org-name">Migrating a Database to Amazon RDS</div>
+            <div class="org-name">Enterprise Database Migration & Modernization</div>
+            <div class="date-range">80 Minutes Duration</div>
           </div>
           <div class="details">
             <ul>
-              <li>Migrated a legacy MariaDB database running on Amazon EC2 to a fully managed <span
-                  class="highlight">Amazon RDS</span> instance, ensuring minimal downtime and data integrity.</li>
-              <li>Performed direct data export and import operations using <span class="highlight">mysqldump</span> to
-                securely transfer customer order history between environments.</li>
-              <li>Reconfigured a PHP-based web application to connect to the new RDS endpoint, replacing the local EC2
-                database connection and optimizing application architecture.</li>
+              <li>Executed a zero-data-loss migration of a legacy MariaDB system to <span class="highlight">Amazon
+                  RDS</span> using custom dump strategies.</li>
+              <li>Re-architected the application layer to utilize managed database services, significantly reducing
+                operational overhead and improving reliability.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="item-header">
+            <div class="org-name">Architecting a Secure Virtual Private Cloud (VPC)</div>
+            <div class="date-range">30 Minutes Duration</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Engineered a custom <span class="highlight">Amazon VPC</span> architecture with segmented public and
+                private subnets to enforce granular network security boundaries.</li>
+              <li>Configured <span class="highlight">Internet Gateways</span> and Route Tables to establish secure
+                connectivity for public-facing application servers while isolating private resources.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="item-header">
+            <div class="org-name">Establishing Secure Inter-VPC Peering & Network Monitoring</div>
+            <div class="date-range">30 Minutes Duration</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Established private, low-latency connectivity between isolated <span class="highlight">Amazon
+                  VPCs</span> using Peering Connections to enable secure cross-network data transfer without internet
+                exposure.</li>
+              <li>Implemented <span class="highlight">VPC Flow Logs</span> and configured complex Route Tables to audit
+                traffic patterns and validate secure communication channels between application and database tiers.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="item-header">
+            <div class="org-name">Architecting Scalable & Highly Available Web Infrastructure</div>
+            <div class="date-range">90 Minutes Duration</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Designed a fault-tolerant Multi-AZ architecture using <span class="highlight">Auto Scaling
+                  Groups</span> and Application Load Balancers to ensure high availability for mission-critical web
+                applications.</li>
+              <li>Configured dynamic scaling policies driven by <span class="highlight">CloudWatch</span> CPU
+                utilization metrics to automatically adjust compute capacity, optimizing performance and cost-efficiency
+                under fluctuating traffic.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="item-header">
+            <div class="org-name">Infrastructure as Code Automation with AWS CloudFormation</div>
+            <div class="date-range">20 Minutes Duration</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Automated the deployment of multi-tier infrastructure (VPC, Application) using layered <span
+                  class="highlight">AWS CloudFormation</span> templates to ensure consistent, repeatable environments.
+              </li>
+              <li>Managed full stack lifecycles including updates and deletion policies to retain critical data (EBS
+                Snapshots) upon stack termination.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="item-header">
+            <div class="org-name">Automating Multi-Region Infrastructure with CI/CD & IaC</div>
+            <div class="date-range">90 Minutes Duration</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Developed modular <span class="highlight">CloudFormation</span> templates to provision replicable
+                network and application layers, establishing a robust Infrastructure as Code (IaC) foundation.</li>
+              <li>Implemented a continuous delivery pipeline using <span class="highlight">AWS CodePipeline</span> and
+                CodeCommit to automate stack updates and enable seamless multi-region deployments.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="item-header">
+            <div class="org-name">Architecting Decoupled Event-Driven Applications</div>
+            <div class="date-range">60 Minutes Duration</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Refactored a tightly coupled monolithic application into a decoupled microservices architecture using
+                <span class="highlight">Amazon SQS</span> and <span class="highlight">Amazon SNS</span> to improve
+                scalability and fault tolerance.
+              </li>
+              <li>Configured event-driven workflows triggered by <span class="highlight">Amazon S3</span> uploads and
+                implemented efficient message polling mechanisms to process asynchronous image processing tasks.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="item-header">
+            <div class="org-name">Building Scalable Serverless Architectures on AWS</div>
+            <div class="date-range">40 Minutes Duration</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Built a fully serverless inventory tracking system using <span class="highlight">AWS Lambda</span>
+                triggered by <span class="highlight">Amazon S3</span> events to automatically process and ingest data
+                into <span class="highlight">Amazon DynamoDB</span>.</li>
+              <li>Integrated <span class="highlight">Amazon SNS</span> for real-time low-stock notifications and
+                visualized data via a serverless dashboard, eliminating server management overhead and optimizing costs.
+              </li>
             </ul>
           </div>
         </article>
