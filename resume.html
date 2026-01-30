@@ -832,6 +832,141 @@
 
         <article>
           <div class="item-header">
+            <div class="org-name">Enterprise Linux Storage Management with LVM</div>
+            <div class="date-range">Nov 2025</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Implemented <span class="highlight">Logical Volume Management (LVM)</span> to dynamically manage
+                server storage, creating scalable volume groups and logical volumes for flexible resource allocation.
+              </li>
+              <li>Executed critical system maintenance by migrating system directories like `/var/log` to dedicated
+                logical volumes, preventing <span class="highlight">root partition saturation</span> and ensuring server
+                stability.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
+            <div class="org-name">Secure Multi-Protocol Remote Access with Cloudflare Tunnel</div>
+            <div class="date-range">Nov 2025</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Implemented <span class="highlight">Cloudflare Tunnel</span> to securely expose local Linux services
+                (SSH, RDP, Node.js) to the internet without opening inbound ports, ensuring zero-trust network security.
+              </li>
+              <li>Configured persistent <span class="highlight">systemd services</span> and secure ssh and rdp
+                connections to ensure high-availability connections for SSH and Remote Desktop (RDP) workflows.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
+            <div class="org-name">Multi-Environment Remote Desktop Infrastructure with XRDP</div>
+            <div class="date-range">Oct 2025</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Deployed <span class="highlight">XRDP</span> with 7 distinct Desktop Environments (KDE, GNOME, XFCE)
+                on a single Ubuntu server, enabling versatile, low-latency remote graphical access tailored to user
+                resource needs.</li>
+              <li>Engineered custom <span class="highlight">.xsession configuration</span> and systemd Display Manager
+                services to seamlessly manage user sessions and ensure secure, high-performance RDP connectivity.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
+            <div class="org-name">Self-Hosted Cloud Collaboration Platform with Nextcloud AIO</div>
+            <div class="date-range">Oct 2025</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Deployed a secure, self-hosted <span class="highlight">Nextcloud All-in-One (AIO)</span> instance
+                using Docker on Ubuntu, ensuring complete data sovereignty and compliance as a private cloud
+                alternative.</li>
+              <li>Configured optimized <span class="highlight">Docker containers</span> for Nextcloud Office and Talk,
+                enabling real-time document collaboration and secure video conferencing behind an automated reverse
+                proxy.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
+            <div class="org-name">MySQL Master-Slave Replication for High Availability</div>
+            <div class="date-range">Oct 2025</div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Implemented <span class="highlight">MySQL Master-Slave replication</span> architecture on Ubuntu to
+                enable read scalability and database redundancy, offloading analytics queries to slave nodes.</li>
+              <li>Resolved critical authentication compatibility issues using <span
+                  class="highlight">mysql_native_password plugin</span>, ensuring secure and stable replication
+                connections across VPC networks.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
+            <div class="org-name">Centralized Network Storage with NFS</div>
+            <div class="project-link"><a href="https://blog.janakkumarshrestha0.com.np/posts/linux/nfs/"
+                target="_blank">Project Link</a></div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Deployed <span class="highlight">Network File System (NFS)</span> infrastructure to centralize storage
+                across multiple Linux servers, enabling seamless file sharing and collaborative access.</li>
+              <li>Configured secure NFS exports with granular <span class="highlight">access controls and firewall
+                  rules</span>, implementing network segmentation to restrict client access to trusted subnets.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
+            <div class="org-name">Multi-Master Database Clustering with MariaDB Galera</div>
+            <div class="project-link"><a
+                href="https://blog.janakkumarshrestha0.com.np/posts/linux/mariadb_galera_cluster/"
+                target="_blank">Project Link</a></div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Architected a multi-master <span class="highlight">MariaDB Galera Cluster</span> with synchronous
+                replication across three nodes, achieving zero-lag active-active database operations for
+                mission-critical applications.</li>
+              <li>Configured cluster-wide <span class="highlight">wsrep parameters and firewall rules</span> to ensure
+                fault tolerance, automatic node recovery, and seamless data consistency across distributed database
+                infrastructure.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
+            <div class="org-name">Production WordPress Deployment with Docker & SSL</div>
+            <div class="project-link"><a
+                href="https://blog.janakkumarshrestha0.com.np/posts/docker/docker-compose-wordpress/"
+                target="_blank">Project Link</a></div>
+          </div>
+          <div class="details">
+            <ul>
+              <li>Deployed production-ready <span class="highlight">WordPress with Docker Compose</span>, orchestrating
+                multi-container architecture with MariaDB backend and persistent volume management for data integrity.
+              </li>
+              <li>Configured <span class="highlight">Apache reverse proxy with Let's Encrypt SSL</span> automation,
+                implementing HTTPS encryption and certificate auto-renewal for secure web hosting.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <div class="item-header">
             <div class="org-name">Hybrid Cloud Storage & Migration with AWS Storage Gateway</div>
             <div class="date-range">90 Minutes Duration</div>
           </div>
@@ -846,21 +981,7 @@
           </div>
         </article>
 
-        <article>
-          <div class="item-header">
-            <div class="org-name">Serverless E-commerce Platform</div>
-            <div class="project-link"><a href="#" target="_blank">Project Link</a></div>
-          </div>
-          <div class="details">
-            <ul>
-              <li>Architected and built a fully serverless e-commerce backend using <span class="highlight">AWS Lambda,
-                  API Gateway, and DynamoDB</span>, handling over 10k
-                requests/second.</li>
-              <li>Implemented real-time inventory updates using <span class="highlight">AWS IoT
-                  Core</span> and WebSockets.</li>
-            </ul>
-          </div>
-        </article>
+
         <article>
           <div class="item-header">
             <div class="org-name">Deploying Scalable Relational Database Infrastructure</div>
