@@ -481,7 +481,7 @@ textarea {
 }
 
 .footer-nav {
-  list-style: none;
+  list-style: inside;
   line-height: 1.6;
 }
 
